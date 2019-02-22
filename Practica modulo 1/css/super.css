@@ -1,0 +1,472 @@
+body
+{
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: 12px;
+	color: #131313;
+}
+	
+.main-container
+{
+	width: 1000px;
+	background-color: #fbf6da;
+	margin: 0 auto;
+}
+
+/* Los header hijos de main-container */
+.main-container > header
+{
+	background-color: #fc8833;
+	position: relative;
+	padding-top: 50px;
+	margin-bottom: 37px;
+	box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.75);
+}
+
+header form
+{
+	margin-left: 725px;
+	margin-bottom: 60px;
+}
+
+header form input
+{
+	width: 200px;
+	height: 33px;
+	border: none;
+	background-color: #fbf6da;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	padding-left: 10px;
+	font-style: italic;
+	color: #999;
+	font-size: 18px;
+	border: none;
+}
+
+header form button
+{
+	width: 34px;
+	height: 33px;
+	background: #e1ddc4 url("../img/lupa.png") no-repeat center center;
+	border: none;
+	text-indent: -9000px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	margin-left: -3px;
+	font-size: 18px;	
+}
+
+.main-container > header h1 a
+{
+	position: absolute;
+	width: 386px;
+	height: 261px;
+	background: url('../img/superweb.png') no-repeat left top;
+	text-indent: -9000px;
+	left: 80px;
+	top: 20px;
+	display: block;
+	
+}
+
+
+nav
+{
+	background-color: #fdc093;
+	width: 70%;
+	margin-left: 30%;
+	padding-left: 215px;
+}
+
+nav li
+{
+	float: left;
+	padding-top: 15px;
+	padding-right: 24px;
+	padding-bottom: 16px;
+	padding-left: 20px;	
+	border-right: 1px solid #131313;
+	border-left: 1px solid #f9f5f5;
+}
+
+nav li:first-child
+{
+	border-left: none;
+	
+}
+
+nav li:last-child
+{
+	border-right: none;
+}
+
+
+nav li a
+{
+	font-size: 18px;
+	color: #f9f4f4;
+	text-decoration: none;	
+}
+
+nav li a:hover
+{
+	color: gray;
+}
+
+.main-content
+{
+	width: 66.6%;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.main-content > article p
+{
+	margin-bottom: 18px;	
+}
+
+.main-content > article h1
+{
+	font-weight: bold;
+	font-size: 48px;
+	margin-top: 23px;
+	margin-bottom: 30px;
+	line-height: 38px;
+}
+
+.main-content > article .subtitulo
+{
+	font-size: 18px;
+	margin-bottom: 34px;
+}
+
+/* PARRAFO SIGUIENTE A SUBTITULO */
+.main-content > article .subtitulo +p
+{
+	border-bottom: 1px solid #131313;
+	padding-bottom: 11px;
+	margin-bottom: 11px;
+}
+
+.main-content > section header
+{
+	border-bottom: 1px solid #000;
+	margin-bottom: 8px;
+}
+
+.main-content > section article
+{
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	border: 1px solid #131210;
+	position: relative;
+	overflow:hidden;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	
+}
+
+
+.main-content > section article:last-child
+{
+	margin-right: 0px;	
+}
+
+
+.main-content > section article h2 a
+{
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,.5);
+	width: 100%;
+	height: auto;
+	padding: 5px 0px 5px 10px; 
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.main-content > section article h2 a:hover
+{
+	width: 100%;
+	height: 100%;
+}
+
+.main-content > section h1
+{
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;	
+}
+
+.side-section
+{
+	width: 33.3%;
+	float: left;
+	padding: 0 10px;
+}
+
+.side-section article
+{
+	border: 1px solid #fc8833;
+	margin-bottom: 33px;
+}
+
+.side-section article h1
+{
+	background: #fc8833;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	padding: 12px;
+	line-height: 16px;
+}
+
+.side-section article img
+{
+	float:left;
+	margin: 12px;
+}
+
+.side-section article p
+{
+	margin: 12px;
+}
+
+footer
+{
+	background: #7f7f7f;
+	margin-top: 45px;
+	
+}
+
+footer > div
+{
+	float: left;
+	color: #fff;
+	padding-top: 33px;
+	padding-left: 24px;
+}
+
+footer > div a
+{
+	color: #fff;
+}
+
+footer address
+{
+	font-style: italic;
+}
+
+footer > div:first-child
+{
+	width: 60%;
+}
+
+footer > div:first-child p,
+footer > div:first-child address
+{
+	margin-bottom: 20px;
+}
+
+footer > div:last-child
+{
+	width: 40%;
+	padding-right: 20px;
+}
+
+.enlaces1,
+.enlaces2
+{
+	text-align: right;
+}
+
+.enlaces2
+{
+	margin-top: 25px;	
+}
+
+.enlaces1 li::after
+{
+	content: "·";
+	padding-left: 3px;
+}
+
+.enlaces1 li:last-child::after
+{
+	content: none;
+}
+
+.enlaces1 li,
+.enlaces2 li
+{
+	display: inline;
+}
+
+.enlaces2 li a
+{
+	display: inline-block; /*Para dar tamaño a los iconos del footer */
+	width: 45px;
+	height: 45px;
+	background-image: url('../img/media.png');
+	text-indent: -9000px;
+	text-align: left;
+}	
+
+.facebook
+{
+	background-position: left top;
+}
+
+.twiter
+{
+	background-position: -45px top;
+}
+
+.pinterest
+{
+	background-position: -90px top;
+}
+
+.google
+{
+	background-position: -135px top;
+}
+
+.facebook:hover
+{
+	background-position: left bottom;
+}
+
+.twiter:hover
+{
+	background-position: -45px bottom;
+}
+
+.pinterest:hover
+{
+	background-position: -90px bottom;
+}
+
+.google:hover
+{
+	background-position: -135px bottom;
+}
+
+
+.formulario
+{
+	font-family: "Arial", "Helvetica", sans-serif;
+	width: 620px;
+	margin: auto;
+	padding-top: 120px;
+}
+
+.formulario h2
+{
+	font-size: 30px;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 33px;
+}
+
+.formulario legend
+{
+	display: block;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 27px;	
+}
+
+.formulario fieldset
+{
+	margin-top: 37px;
+	margin-bottom: 27px;	
+}
+
+.formulario label
+{
+	display: block;
+	font-size: 18px;
+	margin-bottom: 4px;
+	text-align: right;
+}
+	
+.formulario input[type=text],.formulario input[type=email],.formulario select
+{
+	width: 521px;
+	height: 30px;
+	margin-left: 14px;
+	border: 3px solid #fc8833;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.otracosa
+{
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.otracosa label
+{
+	display: block;
+	text-align: left;
+	
+}
+
+.formulario .corta, .formulario .mascorta
+{
+	display: inline;
+	margin-left: 12px;
+}
+
+.formulario .corta:last-of-type
+{
+	margin-left: 27px;
+}
+
+.formulario .corta input
+{
+	width: 210px;
+}
+
+.formulario .mascorta select
+{
+	width: 200px;
+}
+
+.formulario fieldset:last-of-type label
+{
+	text-align: left;
+}
+
+textarea
+{
+	width: 620px;
+	height: 300px;
+	margin-left: 14px;
+	border: 3px solid #fc8833;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	text-align: center;
+	display: block;
+}
+
+
+.formulario fieldset:last-of-type button
+{
+	display: block;
+	margin-left: 310px;
+}
